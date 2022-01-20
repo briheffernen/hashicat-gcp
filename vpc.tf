@@ -3,7 +3,7 @@ module "network" {
     version = "3.4.0"
 
     project_id   = var.project
-    network_name = "guarav-network"
+    network_name = "guarav-network-1"
     routing_mode = "GLOBAL"
 
     subnets = [
